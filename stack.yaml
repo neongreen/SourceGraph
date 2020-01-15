@@ -1,0 +1,9 @@
+resolver: lts-14.20
+
+packages:
+- .
+
+extra-deps:
+- git: https://github.com/hpacheco/Graphalyze
+  commit: 8806877d5a498a937277bac1035cb270b8edd15d
+- bktrees-0.3.1
